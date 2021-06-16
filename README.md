@@ -8,3 +8,7 @@ To see the website, click on the following link: http://hiri.pythonanywhere.com
 
 
 Screen capture of website
+
+![alt text](https://github.com/mustafa-hiri/Create-your-website-with-Django/blob/main/results01.JPG)
+
+![alt text](https://github.com/mustafa-hiri/Create-your-website-with-Django/blob/main/results02.JPG)
