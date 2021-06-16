@@ -1,0 +1,27 @@
+{%  extends "base.html" %}
+
+{% load static %}
+
+{%  block main %}
+
+
+    <div class="container">
+        <img src="{% static 'image1.jpg'  %}" class="image-ronde">
+        <h2 class="jumbotron-heading pt-5"> &nbspHIRI Mustafa</h2>
+        
+        <div class="ccc pt-2 pl-2 pr-2 ">
+            <h5 >Data Scientist</h5>
+            <p class="lead text-muted">Email: mustafa.hiri@gmail.com <br>
+                                       Tel : +212643825239           <br>
+                                       Marocco, Tetouan/Sidi Ifni
+      
+            </p>
+                  <p>                      
+                              <a href="{% url 'aboutMe'%}" class="btn btn-outline-primary my-2 pl-2">About Me </a>
+                             &nbsp <a href="{% url 'home'%}" class="btn btn-outline-primary my-2 pl-2">To home</a>
+        
+                  </p>
+        </div>
+    </div>
+
+{%  endblock %}

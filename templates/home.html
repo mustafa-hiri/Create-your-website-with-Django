@@ -1,0 +1,27 @@
+{%  extends "base.html" %}
+
+{% load static %}
+
+{%  block main %}
+
+
+
+    <div class="container">
+    <img src="{% static 'image1.jpg'  %}" class="image-ronde">
+        <h2 class="jumbotron-heading pt-5"> &nbspHIRI Mustafa</h2>
+            
+            <div class="ccc pt-2 pl-2 pr-2 ">
+                    <h5 >Data Scientist</h5>
+                   <p class="lead text-muted">Please browse my website to see my portfolio.<br>
+                                    I am always looking forward to engaging in exciting new 
+                                    projects and if you want to build something together, contact me! .</p>
+                   <p>
+                            <a href="{% url 'aboutMe'%}" class="btn btn-outline-primary my-2 pl-2">About Me </a>
+                            &nbsp <a href="{% url 'contact' %}" class="btn btn-outline-primary my-2 pl-2">Contact</a>
+                            &nbsp <a href="{% static 'template.pdf' %}" class="btn btn-outline-primary my-2">Resume</a>
+            
+                   </p>
+            </div>
+    </div>
+
+{%  endblock %}
